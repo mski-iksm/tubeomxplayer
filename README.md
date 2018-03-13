@@ -4,6 +4,8 @@ Automatic Youtube player for raspberry pi.<br>
 Plays youtube videos by using youtube-dl and omxplayer.<br>
 Although this software use youtube-dl, videos are played by streaming instead of downloading video files (due to leagal restrictions).
 
+Version 0.0.0 (Last update 2018-03-13)<br>
+
 
 Dependencies
 ------
@@ -22,7 +24,7 @@ Instructions are described in the following link.
 Usage
 ------
 * Searching and playing video is posiible with follwing code: `python youtube_search.py -q [serch terms] -k [youtube API key]`
-* Example `python youtube_search.py -q 宇多田ヒカル -k XXXXXXXXXXXXXXXXXXXXX`
+* Example `python youtube_search.py -q macho man -k XXXXXXXXXXXXXXXXXXXXX`
 
 
 ```
@@ -39,3 +41,7 @@ optional arguments:
   -m MODE, --mode MODE  Video play mode. "video". Mode for playing playlist
                         will be supported in the future update.
 ```
+
+Change Log
+-----
+* Version 0.0.0 (2018-03-13): First upload
