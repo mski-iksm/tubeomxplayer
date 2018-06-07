@@ -83,6 +83,6 @@ video_url_list, video_name_list = youtube_search(args)
 
 for i in np.arange(len(video_url_list)):
     print(video_name_list[i])
-    os.system("sh {}/youtube.sh '{}'".
+    os.system("/bin/bash {}/youtube.sh '{}'".
               format(os.path.dirname(os.path.abspath(__file__)),
                      video_url_list[i]))
